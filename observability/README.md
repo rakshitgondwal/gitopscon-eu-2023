@@ -3,9 +3,9 @@
 - **Install the Keptn Lifecycle Toolkit**
 
     ```
-    helm repo add klt https://charts.lifecycle.keptn.sh
+    helm repo add keptn https://charts.lifecycle.keptn.sh
     helm repo update
-    helm upgrade --install keptn klt/keptn -n keptn-lifecycle-toolkit-system --create-namespace --wait
+    helm upgrade --install keptn keptn/keptn -n keptn-system --create-namespace --wait
     ```
     or if you wish to install using YAML manifests
     ```
